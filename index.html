@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d1790f53ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <!-- ===== nav-bar ===== -->
+            <nav>
+                <img src="images/portfolio.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- ===== nav-bar end ===== -->
+
+        </div>
+        <!-- ===== Home Section =====-->
+         <section class="home">
+            <p>front-end/back-end devloper</p>
+            <h1> Hi, I'm <span>Vishal Kumar</span><br>from Bihar in India </h1>
+         </section>
+    </div>
+     <!-- ===== Home Section end =====-->
+
+     <!-- ===== About start ===== -->
+      <section>
+        <div id="about">
+            <div class="contanier">
+                <div class="row">
+                    <div class="about-column-1">
+                        <img src="images/about_img.jpg" alt="">
+                    </div>
+                    <div class="about-column-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> I'm Vishal Kumar from Motihar in Bihar.  Currently, i'm 5th semester of BCA student. I'm a good learner.  </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills"> 
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/ios apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="educations">
+                            <ul>
+                                <li><span>2020-22</span><br>I.Sc from R.P.B.D. Inter College Pipra</li>
+                                <li><span>2022-25</span><br>Purusing in B.C.A. from L.N.D. College Motihari</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>I'm fresher in all skills</li>
+                            </ul>
+                        </div>   
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- ===== about section end ===== -->
+
+      <!-- ===== Services start ===== -->
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact with when using a website, app, or other electronic device. UX refers to the entire interaction you have with a product, including how you feel about the interaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-free-code-camp"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design has come a long way since the first site was published in 1991.Web design is the art of planning and arranging content on a website so that it can be shared and accessed online with the world. So, if you're here to learn more about the world of web design, you've come to the right place.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Mobile app design refers to the overall process of creating the visual and interactive elements of a mobile application. It’s a multidisciplinary field that encompasses everything from the user interface (UI) design, which includes the visual elements like buttons, icons, and graphics, to the user experience (UX) design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>back/front end development</h2>
+                    <p>Frontend and Backend are key terms in web development. The frontend is what users see and interact with, while the backend is how everything works behind the scenes. Both sides need to work together seamlessly to ensure a functional website.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- ===== services section end ===== -->
+     
+       <!-- ===== Portfolio start ===== -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/social-media-apps.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/music & app.png" alt="">
+                        <div class="layer">
+                            <h3>Music & Movie App</h3>
+                            <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/online shoping.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Online Shoping App</h3>
+                            <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- ===== portfolio end ===== -->
+
+        <!-- ===== contact section start ===== -->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>vishalkumarmth091@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>9709851977</p>
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/share/nZvW4QaHUWy9NoSf/?mibextid=qi2Omg"><i class="fa-brands fa-square-facebook"></i></a><a href="https://x.com/RajputVishal097?t=vwE4OuECSBPBHUmo5WxXYw&s=09"><i class="fa-brands fa-square-x-twitter"></i></a><a href="https://www.instagram.com/rajputprasant_1/profilecard/?igsh=MW1iZ2Fic3YzdjBvOQ=="><i class="fa-brands fa-square-instagram"></i></a><a href="https://www.linkedin.com/in/vishal-singh-19a299299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/ethicalvishal"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                        <a href="images/vishal_kumar-cv.pdf" download class="btn btn2"> Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; Vishal Singh | 2024 Made with <i class="fas fa-heart"></i> by Ethicalvishal</p>
+            </div>
+         </div>
+
+      <script src="javascript.js"></script>
+</body>
+</html>
