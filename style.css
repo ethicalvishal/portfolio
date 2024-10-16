@@ -78,7 +78,7 @@ nav ul li a:hover::after {
 }
 
 .home {
-    margin-top: 20%;
+    margin-top: 30%;
     font-size: 30px;
     margin-left:10% ;
     color: #080808;
@@ -404,12 +404,12 @@ form btn2 {
     }
 
     .home p {
-        margin-top: 120%;
+        margin-top: 130%;
         font-size: 20px;
     }
 
     .home h1 {
-        font-size: 35px;
+        font-size: 45px;
     }
 
     nav .fas {
