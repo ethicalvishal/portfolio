@@ -17,6 +17,7 @@ body {
 
 #header {
     height: 100vh;
+    position:fixed;
     width: 100%;
     background-image: url(images/background_img.jpg);
     background-size: cover;
