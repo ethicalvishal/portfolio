@@ -17,7 +17,6 @@ body {
 
 #header {
     height: 100vh;
-    position:fixed;
     width: 100%;
     background-image: url(images/background_img.jpg);
     background-size: cover;
@@ -26,6 +25,8 @@ body {
 
 .container {
     padding: 20px 10%;
+    position:fixed;
+    width:100%;
 }
 
     nav {
