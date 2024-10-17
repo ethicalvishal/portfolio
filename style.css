@@ -29,7 +29,7 @@ body {
 
     nav {
     position: fixed;
-    width: 100%;
+    width: 80%;
     display: flex;
     background-color: aquamarine;
     border-radius: 10px;
@@ -417,7 +417,6 @@ form btn2 {
     nav .fas {
         display: block;
         font-size: 25px;
-        margin-left: 10px;
     }
     
     nav ul {
