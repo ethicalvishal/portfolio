@@ -28,8 +28,7 @@ body {
 }
 
     nav {
-        position:fixed;
-    width:100%;
+    position:fixed;
     display: flex;
     background-color: aquamarine;
     border-radius: 10px;
